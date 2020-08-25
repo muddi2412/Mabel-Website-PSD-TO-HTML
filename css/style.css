@@ -1,0 +1,146 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "raleway";
+}
+
+.bg-custom {
+    background: #fef0cb;
+}
+
+.text-black {
+    color: black!important;
+}
+
+#top-bar {
+    background: black;
+}
+
+#top-bar strong {
+    font-weight: bold;
+}
+
+.icon-social i {
+    position: relative;
+    padding: 0px 8px;
+}
+
+.nav-link span {
+    margin-left: -5px;
+    font-size: 20px;
+    position: absolute;
+    padding: 2px;
+}
+
+
+/* #hero {
+    background: rgb(254, 240, 203);
+}
+ */
+
+
+/* other area  */
+.wwa{
+font-family: "Libre Baskerville";
+}
+.who-para{
+	font-family: "raleway";
+}
+.who-nature {
+    /* font-size: 8.765px; */
+   font-family: "Libre Baskerville";
+    color: rgb(0, 55, 75);
+    text-transform: uppercase;
+    line-height: 3.08;
+    text-align: center;
+}
+
+.readmore-color {
+	font-family: "raleway";
+    background: #06374b;
+}
+
+
+/* shop area  */
+
+.liststyle-shop {
+    padding: 1px 25px;
+  /*   border-right: 1px solid #06374b; */
+}
+.list-unstyled a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #27b5b6;
+}
+
+.active-shop a{
+    border-bottom: 2px solid #27b5b6;
+}
+
+
+/* bluescreen area */
+
+#bluescreen {
+    background: #35b6b6;
+    position: relative;
+}
+
+
+.custom-heading {
+   font-family: "Libre Baskerville";
+}
+
+.mockup-setting {
+	margin-top: 20%;
+	width: 84vh;
+	min-width: 50vh;
+}
+
+/* insta area  */
+
+.cleanmabel{
+	color: #35b6b6;
+}
+
+
+/* footer area  */
+
+#footer{
+	background: #f6f4f2;
+}
+
+#footer input , .none-style span{
+	border-radius: 0;
+	border-bottom: 2px solid black;
+	background: #f6f4f2;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.form-style{
+	font-family: "Libre Baskerville";
+}
+
+.copyright p{
+	color:#bbbec0;
+}
+
+
+@media screen and (max-width: 470px) {
+	.cleanmabel{
+		font-size: 1.8rem!important;
+	}
+	.custom-heading{
+		font-size: 2.2em!important;
+	}
+
+	.liststyle-shop{
+		padding: 1px 15px;
+	}
+}
+@media screen and (max-width: 470px){
+	.liststyle-shop{
+		padding: 1px 10px;
+	}
+}
